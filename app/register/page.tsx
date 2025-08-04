@@ -47,7 +47,7 @@ export default function Register() {
           <div className="flex items-center justify-center mb-6">
             <HiChip className="text-4xl text-purple-600 dark:text-purple-400 mr-2" />
             <span className="text-2xl font-bold text-purple-600 dark:text-purple-400">
-              Learnify
+              GameAcademy
             </span>
           </div>
           <h1 className="text-3xl font-bold bg-gradient-to-r from-purple-600 to-indigo-600 dark:from-purple-400 dark:to-indigo-400 text-transparent bg-clip-text">

@@ -63,7 +63,7 @@ export default function Home() {
             <NavbarBrand href="/">
               <HiChip className="text-2xl text-purple-600 dark:text-purple-400 mr-2" />
               <span className="self-center text-xl font-semibold text-purple-600 dark:text-purple-400">
-                Learnify
+                GameAcademy
               </span>
             </NavbarBrand>
             <NavbarToggle />
@@ -374,7 +374,7 @@ export default function Home() {
                 About Us
               </h2>
               <p className="text-lg mb-8 text-gray-600 dark:text-gray-300">
-                Learnify is dedicated to revolutionizing the way people learn
+                GameAcademy is dedicated to revolutionizing the way people learn
                 through the power of technology. Our mission is to provide
                 accessible, personalized, and impactful learning experiences to
                 everyone, anywhere in the world.
@@ -416,7 +416,7 @@ export default function Home() {
                     name: "John Doe",
                     role: "Software Developer",
                     feedback:
-                      "Learnify transformed the way I approach learning. The personalized features are incredible!",
+                      "GameAcademy transformed the way I approach learning. The personalized features are incredible!",
                     image: "/profile1.png",
                   },
                   {
@@ -477,7 +477,7 @@ export default function Home() {
               <p className="text-lg mb-8 opacity-90">
                 Join{" "}
                 {Math.floor(Math.random() * 50000 + 10000).toLocaleString()}+
-                learners who are already transforming their future with Learnify
+                learners who are already transforming their future with GameAcademy
               </p>
               <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
                 <Link href="/login">
@@ -595,9 +595,9 @@ export default function Home() {
                 <Accordion collapseAll>
                   {[
                     {
-                      question: "What makes Learnify different?",
+                      question: "What makes GameAcademy different?",
                       answer:
-                        "Learnify stands out with its AI-powered personalized learning paths, interactive content, and real-time adaptation to your learning style. Our platform ensures every learner gets a unique experience tailored to their needs.",
+                        "GameAcademy stands out with its AI-powered personalized learning paths, interactive content, and real-time adaptation to your learning style. Our platform ensures every learner gets a unique experience tailored to their needs.",
                     },
                     {
                       question: "How does the pricing work?",
@@ -607,7 +607,7 @@ export default function Home() {
                     {
                       question: "Is there a free trial available?",
                       answer:
-                        "Yes! You can start with our Starter plan completely free. This gives you access to basic courses, community features, and core platform functionality to help you evaluate if Learnify is right for you.",
+                        "Yes! You can start with our Starter plan completely free. This gives you access to basic courses, community features, and core platform functionality to help you evaluate if GameAcademy is right for you.",
                     },
                     {
                       question: "How do I get started?",
@@ -642,8 +642,8 @@ export default function Home() {
                   <Footer.Brand
                     href="/"
                     src="/logo.svg"
-                    alt="Learnify Logo"
-                    name="Learnify"
+                    alt="GameAcademy Logo"
+                    name="GameAcademy"
                     className="text-purple-600 dark:text-purple-400"
                   />
                   <p className="mt-4 text-gray-600 dark:text-gray-400">
@@ -727,7 +727,7 @@ export default function Home() {
               </div>
               <div className="border-t border-gray-200 dark:border-gray-700 py-4">
                 <div className="text-sm text-center text-gray-500 dark:text-gray-400">
-                  © {new Date().getFullYear()} Learnify. All Rights Reserved.
+                  © {new Date().getFullYear()} GameAcademy. All Rights Reserved.
                 </div>
               </div>
             </div>

@@ -8,9 +8,9 @@ import { ThemeModeScript } from "flowbite-react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Learnify by Ideakers",
+  title: "GameAcademy by Ideakers",
   description:
-    "Learnify is an online personalized learning platform by Ideakers.",
+    "GameAcademy is an online personalized learning platform by Ideakers.",
 };
 
 export default function RootLayout({
